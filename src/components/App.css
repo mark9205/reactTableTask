@@ -1,0 +1,17 @@
+
+.page {
+	background-color: white;
+	margin: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page__title {
+	font-size: 30px;
+	line-height: 1.1;
+	color: rgb(127, 132, 210);
+	margin: 0;
+}

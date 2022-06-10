@@ -1,0 +1,28 @@
+.paginator {
+	padding: 20px 0;
+	display: flex;
+	gap: 20px;
+}
+
+.paginator__page {
+	width: 30px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: 1px solid black;
+	transition: 0.3 ease;
+	border-radius: 5px;
+}
+
+.paginator__page:hover {
+	outline: 4px solid rgb(8, 0, 252);
+	transition: .3s;
+}
+
+.paginator__page_active {
+	outline: 3px solid rgb(81, 77, 213);
+	color: rgb(81, 77, 213);
+	
+}
